@@ -10,8 +10,8 @@ public class Avergae {
 		System.out.println("The first of two integers to be averaged?");
 		int n1 = in.nextInt();
 		int n2 = in.nextInt();
-		double isAveraged= (n1+n2)/2;
-		System.out.println(isAveraged=((n1+n2)/2));
+		double isAveraged = (double) (n1+n2)/2;
+		System.out.println(isAveraged);
 	}
 
 }
